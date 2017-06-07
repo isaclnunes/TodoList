@@ -1,9 +1,7 @@
-.remove:before {
-  content: "✖";
+.removeItem {
   color: red;
-  padding: 0;
-  border: none;
-  background: none;
+  vertical-align: top;
+  padding: 4px;
 }
 
 .listItem {
@@ -11,4 +9,5 @@
   font-size: 1.3em;
   line-height: 1.5em;
   color: #666;
+  vertical-align: top;
 }
