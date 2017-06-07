@@ -7,7 +7,8 @@ function createLiItem(itemText) {
     li.setAttribute("id", liId);
     li.setAttribute("class","listItem");
     var button = document.createElement("button");
-    button.setAttribute("class","remove");
+    button.setAttribute("class","removeItem");
+    button.textContent = "X";
     li.appendChild(button);
     global.liItemCount += 1;
     return li;
