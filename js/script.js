@@ -22,4 +22,9 @@ $(function () {
         $("#todoItem").val("");
         event.preventDefault();
     });
+
+    $("ul").on("click", "button", function() {
+        console.log("was it me");
+        $(this).parent().fadeOut(500);
+    });
 });
