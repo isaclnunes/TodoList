@@ -24,7 +24,7 @@ $(function () {
     });
 
     $("ul").on("click", "button", function() {
-        console.log("was it me");
-        $(this).parent().fadeOut(500);
+        var liId = "#" + $(this).parent()[0].getAttribute("id");
+        $(liId).remove();
     });
 });
