@@ -28,3 +28,9 @@ $(function () {
         $(liId).remove();
     });
 });
+
+$(function(){
+    $("#addTab").click(function(){
+        alert("addTab button clicked");
+    });
+});

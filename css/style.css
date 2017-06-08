@@ -1,3 +1,17 @@
+.top-div {
+    width: 100%;
+}
+
+.left-div {
+    float:left;
+    width: 30%;
+}
+
+.right-div {
+    float:right;
+    width: 70%;
+}
+
 .removeItem {
   color: red;
   vertical-align: top;

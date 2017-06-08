@@ -1,17 +1,28 @@
 <!doctype html>
 <html>
+
 <head>
-<meta charset="UTF-8">
-<title>TODO LIST</title>
-<link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <title>TODO LIST</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <h1>Todo List</h1>
-    <form> 
-        <input type="text" id="todoItem" />   
-        <input type="submit" id="addItem"/>
-    </form>
-    <ul id="todoList"></ul>
+    <div class="top-div">
+        <div class="left-div">
+            <h1>Todo List</h1>
+            <form>
+                <input type="text" id="todoItem" />
+                <input type="submit" id="addItem" />
+            </form>
+            <ul id="todoList"></ul>
+        </div>
+        <div class="right-div">
+            <div class="tab">
+                <button id="addTab">+</button>
+            </div>
+        </div>
+    </div>
 </body>
 <script src="js/jquery.js"></script>
 <script src="js/script.js"></script>
